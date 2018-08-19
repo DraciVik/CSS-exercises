@@ -1,0 +1,46 @@
+/*  CSS Document  */
+
+html {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	padding-top: 30px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	background-repeat: no-repeat;
+	background-image: url(media/louvre.jpg);
+	background-position: 50% bottom;
+	/* background-size: contain; */
+	background-size: cover;
+}
+
+#container {
+	width: 90%; 
+	margin: 0 auto; 
+	padding-top: 50%;
+	border: 1px solid #ccc;
+	display: none;
+	/* background: radial-gradient(#68c87a, #0d8bcd 70%); */
+
+	/* background-repeat: repeat;
+	background-image: url(media/clovers.jpg);
+	background-position: 50% 50%;
+	background-size: 350px 172px; */
+
+	/* background-repeat: no-repeat;
+	background-image: url(media/louvre.jpg);
+	background-position: 50% bottom;
+	/* background-size: contain; */
+	/*background-size: cover; */
+}
+
+#container p {
+	margin: 0; 
+	padding: 20px;
+	color: #fff;
+	background-color: rgba(0,0,0,0.6);
+}
+
+
