@@ -1,5 +1,5 @@
 .slide {
-  position: relatuve;
+  position: relative;
   display: inline-block;
   overflow: hidden;
 }
@@ -11,6 +11,7 @@
 
 img {
   max-width: 450px;
+  max-height: 340px;
 }
 .slide-content {
   position: absolute;
@@ -25,7 +26,7 @@ img {
   align-items: center;
   justify-content: center;
   text-align: center;
-  background-color: rgba(225, 35, 69, 0.9);
+  background-color: rgba(180, 90, 107, 0.9);
   padding: 20px;
   color: white;
   box-sizing: border-box;
@@ -37,6 +38,15 @@ img {
 
 /* DIRECTIONS */
 
-slide.top .slide-content {
-  transform: translate(0, -100%);
+.slide-top .slide-content {
+  transform: translate(0, -100%)
+}
+.slide-right .slide-content {
+  transform: translate(100%, 0);
+}
+.slide-bottom .slide-content {
+  transform: translate(0, 100%);
+}
+.slide-left .slide-content {
+  transform: translate(-100%, 0);
 }
